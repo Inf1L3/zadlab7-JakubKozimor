@@ -27,33 +27,36 @@ public class Student extends Osoba{
         return nr_indeksu;
     }
 
-    public void setNr_indeksu(int nr_indeksu) {
-        this.nr_indeksu = nr_indeksu;
-    }
-
     public String getTyp() {
         return typ;
-    }
-
-    public void setTyp(String typ) {
-        this.typ = typ;
     }
 
     public String getKierunek() {
         return kierunek;
     }
 
-    public void setKierunek(String kierunek) {
-        this.kierunek = kierunek;
-    }
-
     public int getRok() {
         return rok;
+    }
+
+    public void setNr_indeksu(int nr_indeksu) {
+        this.nr_indeksu = nr_indeksu;
+    }
+
+    public void setTyp(String typ) {
+        this.typ = typ;
+    }
+
+    public void setKierunek(String kierunek) {
+        this.kierunek = kierunek;
     }
 
     public void setRok(int rok) {
         this.rok = rok;
     }
+
+    
+    
 
     @Override
     public String toString() {
